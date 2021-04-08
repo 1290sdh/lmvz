@@ -12,8 +12,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "user" && password === "123456789") {
         // If the credentials are valid, show an alert box and reload the page
-        alert("You have successfully logged in.");
-        location.replace("https://lmvz-digitall.xyz/main.html");
+        window.location.href = "http://www.w3schools.com";
     } else {
         // Otherwise, make the login error message show (change its oppacity)
         loginErrorMsg.style.opacity = 1;
