@@ -1,3 +1,11 @@
+html > body {
+    background: #76808c;
+    margin: 0px 0px 0px 0px;
+    padding: 40px 0px 40px 0px;
+    border-width: 9px 0px 9px 0px;
+    border-style: none none none none;
+}
+
 .img-responsive {
     margin: 0px 0px 0px 600px;
     padding: 0px 0px 42px 0px;
