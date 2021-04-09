@@ -13,6 +13,10 @@ loginButton.addEventListener("click", (e) => {
     if (username === "user" && password === "123456789") {
         // If the credentials are valid, show an alert box and reload the page
         window.location.replace("https://lmvz-digitall.xyz/main-page.html");
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
     } else {
         // Otherwise, make the login error message show (change its oppacity)
         loginErrorMsg.style.opacity = 1;
