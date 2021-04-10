@@ -4,7 +4,7 @@ html{
 
 body {
   height: 100%;
-  margin: 0;
+  margin: auto;
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
   justify-items: center;
@@ -44,7 +44,7 @@ by JavaScript */
 #login-error-msg {
   width: 25%;
   text-align: center;
-  margin: 0;
+  margin: auto;
   padding: 5px;
   font-size: 12px;
   font-weight: bold;
