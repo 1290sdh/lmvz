@@ -27,6 +27,8 @@ loginButton.addEventListener("click", (e) => {
     // Get the values input by the user in the form fields
     const username = loginForm.username.value;
     const password = loginForm.password.value;
+    const username2 = loginForm.username.value;
+    const password2 = loginForm.password.value;
 
     if (username === sessionStorage.getItem("user") && password === sessionStorage.getItem("password")) {
         // If the credentials are valid, show an alert box and reload the page
