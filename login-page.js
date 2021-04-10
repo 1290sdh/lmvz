@@ -1,6 +1,6 @@
 sessionStorage.setItem("user", "user57");
 sessionStorage.setItem("password", "Kalender21");
-sessionStorage.setItem("user2", "user 78");
+sessionStorage.setItem("user2", "user78");
 sessionStorage.setItem("password2", "Panter01");
 const isLoggedIn = sessionStorage.getItem("loggedIn");
 
@@ -31,11 +31,7 @@ loginButton.addEventListener("click", (e) => {
     if (username === sessionStorage.getItem("user") && password === sessionStorage.getItem("password")) {
         // If the credentials are valid, show an alert box and reload the page
         sessionStorage.setItem("loggedIn", true);
-        redirect();
-    } else {
-        // Otherwise, make the login error message show (change its oppacity)
-        loginErrorMsg.style.opacity = 1;
-        
+        redirect();     
     if (username === sessionStorage.getItem("user2") && password === sessionStorage.getItem("password2")) {
         // If the credentials are valid, show an alert box and reload the page
         sessionStorage.setItem("loggedIn", true);
