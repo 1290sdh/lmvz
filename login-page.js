@@ -1,5 +1,5 @@
-sessionStorage.setItem("user", "user");
-sessionStorage.setItem("password", "123456789");
+sessionStorage.setItem("user", "user57");
+sessionStorage.setItem("password", "Kalender21");
 const isLoggedIn = sessionStorage.getItem("loggedIn");
 
 const redirect = (redirectFile = "main-page.html") => {
