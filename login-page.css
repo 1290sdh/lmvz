@@ -108,4 +108,5 @@ main grid */
   background-color: #444;
   color: white;
   border: 20px solid #ffffff;
+  border-radius: 25px;
 }
