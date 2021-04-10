@@ -104,11 +104,14 @@ main grid */
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
-  padding: 16px;
+  padding: 12px;
   text-align: center;
   background-color: #3a3a3a;
   color: white;
   border: 20px solid #ffffff;
   border-radius: 25px;
   width: 50px;
+  height: 70px;
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
